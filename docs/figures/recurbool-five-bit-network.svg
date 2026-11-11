@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2280" height="1130" viewBox="0 0 2280 1130" role="img" aria-labelledby="title desc">
-<title id="title">GateGRU：与pipeline一致的5bit编码网络结构</title>
+<title id="title">RecurBool：与pipeline一致的5bit编码网络结构</title>
 <desc id="desc">采用统一蓝色方框、显式分支和核心公式。字符编码和旧状态分别进入输入与循环映射，产生r、z、n三组分支。重置门作用于候选的循环仿射结果；更新门控制旧状态与候选混合；旧状态还有一条底部直接通路。混合结果编码为五位状态，送往读出与五位分数编码，同时作为下一步状态保存。该图与量化、逻辑编译和时序反馈pipeline互补，不重复离线转换和门展开示意。</desc>
 <defs>
 <marker id="blue" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L12,6 L0,12 Z" fill="#003fbd"/></marker>
 </defs>
 <rect width="2280" height="1130" fill="white"/>
 <g font-family="Arial, PingFang SC, Noto Sans CJK SC, sans-serif">
-<text x="45" y="54" fill="#142033" font-size="39" font-weight="600" text-anchor="start">GateGRU：5bit 编码网络结构</text>
+<text x="45" y="54" fill="#142033" font-size="39" font-weight="600" text-anchor="start">RecurBool：5bit 编码网络结构</text>
 <text x="2230" y="54" fill="#627083" font-size="31" font-weight="400" text-anchor="end">与 pipeline 一致：W5S5-I8</text>
 <path d="M280,380 H385" fill="none" stroke="#003fbd" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#blue)"/>
 <path d="M280,747 H330 V690 H385" fill="none" stroke="#003fbd" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#blue)"/>

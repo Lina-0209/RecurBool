@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1710" viewBox="0 0 2200 1710" role="img" aria-labelledby="title desc">
 <title id="title">教师 GRU 的量化校准、Boolean 编译及自主状态反馈</title>
-<desc id="desc">GateGRU direct-conversion pipeline, illustrated by the frozen W5S5-I8 instance: five-bit weight, state, gate, candidate and score codes; eight-bit product, per-level accumulator and affine words; static metadata counted separately. Labeled dashed callouts relate the finite model to its state-quantization inset and the compiled circuit C to autonomous recurrent deployment. H and V denote hidden size and vocabulary size; the depicted text8 interface uses H=256 and V=27. Example values are illustrative, not measured parameters. This figure describes quantization and compilation rather than differentiable gate-network training.</desc>
+<desc id="desc">RecurBool direct-conversion pipeline, illustrated by the frozen W5S5-I8 instance: five-bit weight, state, gate, candidate and score codes; eight-bit product, per-level accumulator and affine words; static metadata counted separately. Labeled dashed callouts relate the finite model to its state-quantization inset and the compiled circuit C to autonomous recurrent deployment. H and V denote hidden size and vocabulary size; the depicted text8 interface uses H=256 and V=27. Example values are illustrative, not measured parameters. This figure describes quantization and compilation rather than differentiable gate-network training.</desc>
 <defs>
 <marker id="arrow-blue" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#003fbd"/></marker>
 <marker id="arrow-orange" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#ed6000"/></marker>
@@ -8,7 +8,7 @@
 <marker id="arrow-gray" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#627083"/></marker>
 </defs>
 <rect width="2200" height="1710" fill="white"/>
-<text x="30" y="45" text-anchor="start" font-family="Arial, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="37" font-weight="600" fill="#142033">(a) GateGRU：教师模型的量化校准与逻辑编译</text>
+<text x="30" y="45" text-anchor="start" font-family="Arial, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="37" font-weight="600" fill="#142033">(a) RecurBool：教师模型的量化校准与逻辑编译</text>
 <rect x="30" y="170" width="500" height="640" rx="14" fill="#fbfdff" stroke="#003fbd" stroke-width="1.8"/>
 <text x="280.0" y="225" text-anchor="middle" font-family="Arial, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="35" font-weight="600" fill="#003fbd">冻结的 FP32 教师 GRU</text>
 <rect x="780" y="170" width="640" height="640" rx="14" fill="#fffbf7" stroke="#ed6000" stroke-width="1.8"/>
